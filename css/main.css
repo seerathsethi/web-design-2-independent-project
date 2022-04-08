@@ -112,6 +112,11 @@
     font-size: 1.25rem;
     font-style: normal;
     text-decoration: none;
+    transition: all 200ms linear;
+  }
+
+  .button1:hover{
+    color: white;
   }
 
   a {
@@ -279,33 +284,41 @@
   }
 
   h3 {
-    color: #748273;
+    color: #000;
   }
 
   p {
-    color: #748273;
+    color: #000;
   }
 
 /* Work.html */
 
 .Work1  {
   background-color: #fff;
+  margin: auto;
+    text-align: center;
 }
 
 .Work2 {
   background-color: #fff;
+  margin: auto;
+    text-align: center;
 }
 
 .Work3  {
   background-color: #fff;
+  margin: auto;
+    text-align: center;
 }
 
 .Work4 {
   background-color: #fff;
+  margin: auto;
+    text-align: center;
 }
 
 .Portfolioimg {
-  margin: 1em;
+  margin: auto;
 }
 
 
@@ -364,11 +377,32 @@
 }
 }
 
+
+@media only screen and (min-width: 37em) {
+
+
+.Portfolio {
+   display: flex;
+
+}
+.Work1 {
+  background-color: #fff;
+margin: 0;
+  text-align: center;
+}
+
+
+  @media only screen and (min-width: 47.5em) {
+  section{  display: flex;
+    flex-direction: column;
+}
+  }
+
   @media only screen and (min-width: 55em) {
     section {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-        display: grid;
+        display: flex;
+        flex-direction: column;
+
         margin: 1em;
         justify-content: center;
     }
