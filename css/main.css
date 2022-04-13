@@ -296,30 +296,52 @@
 .Work1  {
   background-color: #fff;
   margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .Work2 {
   background-color: #fff;
   margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .Work3  {
   background-color: #fff;
   margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .Work4 {
   background-color: #fff;
   margin: auto;
-    text-align: center;
+  /* text-align: center; */
 }
 
 .Portfolioimg {
   margin: auto;
 }
+
+/* About CSS */
+
+.grid {
+  display: flex;
+flex-direction: column;
+}
+
+.gridleft {
+  text-align: -webkit-center;
+}
+
+.gridright {
+}
+.aboutimg{
+  margin-top: 11%;width: 60%;
+}
+
+
+
+
+
 
 
 /*
@@ -378,29 +400,112 @@
 }
 
 
+/* @media only screen and (max-width: 37em) {
+
+} */
+@media only screen and (max-width: 480px) {
+   body {
+      margin: auto;
+      width: 100% !important;
+  }
+  .grid {
+    display: list-item;
+    list-style-type: none;
+  }
+  section {
+    display: grid;
+grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+display: grid;
+margin: 1em;
+/* padding: 0em; */
+padding-right: 5%;
+justify-content: center;
+  }
+  .aboutimg{
+    margin-top: 11%;width: 100%;
+  }
+
+}
+/*
+@media (min-width:600px)  {
+  .grid {
+    display: list-item;
+    list-style-type: none;
+  }
+  section {
+    display: grid;
+grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+display: grid;
+margin: 1em;
+/* padding: 0em; */
+
+
+/*
+@media (minmax-width:85px)  {
+  .grid {
+    display: list-item;
+    list-style-type: none;
+  }
+  section {
+    display: grid;
+grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+display: grid;
+margin: 1em;
+padding-right: 5%;
+justify-content: center;
+  }
+} */
+
+
 @media only screen and (min-width: 37em) {
 
 
+/* 
 .Portfolio {
    display: flex;
 
-}
+} */
 .Work1 {
   background-color: #fff;
 margin: 0;
-  text-align: center;
+padding: 2%;
+font-size: 1.25em;
+  /* text-align: center; */
 }
 
+.Work2 {
+  background-color: #fff;
+  margin: 0;
+  padding: 2%;
+  font-size: 1.25em;
+    /* text-align: center; */
+}
 
-  @media only screen and (min-width: 47.5em) {
-  section{  display: flex;
+.Work3  {
+  background-color: #fff;
+  margin: 0;
+  padding: 2%;
+  font-size: 1.25em;
+    /* text-align: center; */
+}
+
+.Work4 {
+  background-color: #fff;
+  margin: 0;
+  padding: 2%;
+  font-size: 1.25em;
+  /* text-align: center; */
+}
+
+  /* @media only screen and (min-width: 47.5em) {
+  section .homec{  display: flex !important;
     flex-direction: column;
 }
-  }
+  } */
 
   @media only screen and (min-width: 55em) {
-    section {
-        display: flex;
+    section .Work{
+        display: flex !important;
         flex-direction: column;
 
         margin: 1em;
