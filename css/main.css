@@ -326,10 +326,13 @@
 .grid {
   display: flex;
 flex-direction: column;
+    background-color: #e5d1bb;
 }
 
 .gridleft {
   text-align: -webkit-center;
+  background-color: #f5f2ec;
+
 }
 
 .gridright {
@@ -460,7 +463,7 @@ justify-content: center;
 @media only screen and (min-width: 37em) {
 
 
-/* 
+/*
 .Portfolio {
    display: flex;
 
