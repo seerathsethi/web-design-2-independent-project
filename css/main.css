@@ -229,7 +229,8 @@
 
   section#skills.skills {
     list-style: none;
-    background-color: #748273;
+    background-color: rgb(55 46 42);
+
 
   }
 
@@ -296,24 +297,28 @@
 .Work1  {
   background-color: #fff;
   margin: auto;
+  padding: 2em;
     /* text-align: center; */
 }
 
 .Work2 {
   background-color: #fff;
   margin: auto;
+  padding: 2em;
     /* text-align: center; */
 }
 
 .Work3  {
   background-color: #fff;
   margin: auto;
+  padding: 2em;
     /* text-align: center; */
 }
 
 .Work4 {
   background-color: #fff;
   margin: auto;
+  padding: 2em;
   /* text-align: center; */
 }
 
@@ -471,7 +476,7 @@ justify-content: center;
 .Work1 {
   background-color: #fff;
 margin: 0;
-padding: 2%;
+padding: 2em;
 font-size: 1.25em;
   /* text-align: center; */
 }
@@ -479,7 +484,7 @@ font-size: 1.25em;
 .Work2 {
   background-color: #fff;
   margin: 0;
-  padding: 2%;
+  padding: 2em;
   font-size: 1.25em;
     /* text-align: center; */
 }
@@ -487,7 +492,7 @@ font-size: 1.25em;
 .Work3  {
   background-color: #fff;
   margin: 0;
-  padding: 2%;
+  padding: 2em;
   font-size: 1.25em;
     /* text-align: center; */
 }
@@ -495,7 +500,7 @@ font-size: 1.25em;
 .Work4 {
   background-color: #fff;
   margin: 0;
-  padding: 2%;
+  padding: 2em;
   font-size: 1.25em;
   /* text-align: center; */
 }
