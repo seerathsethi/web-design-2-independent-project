@@ -237,9 +237,11 @@ ul {
 
 .icon1 {
   justify-content: center;
-  width: 100%;
   margin: 10%;
   align-content: center;
+  grid-area: logo;
+  width: 20%;
+  max-width: 100px;
 }
 
 .contactdiv {
@@ -267,7 +269,6 @@ ul {
 }
 
 footer {
-  padding: 1rem;
   margin-top: 2rem;
   background-color: #fff;
   color: #748273;
