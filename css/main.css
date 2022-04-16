@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-style: normal;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1.25;
   color: #000;
   -moz-text-size-adjust: 100%;
@@ -39,16 +39,16 @@ body {
 img {
   display: block;
   width: 100%;
-
 }
 
-.banner2{
-
+.banner2 {
   background-color: #f5f2ec;
 }
-.headingh1{
+
+.headingh1 {
   color: #564740;
 }
+
 header {
   display: flex;
   flex-direction: column;
@@ -56,6 +56,7 @@ header {
   align-items: center;
   margin-bottom: 1em;
   margin-top: 1em;
+
   /*
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -97,10 +98,7 @@ nav ul {
   padding: 0;
 }
 
-.banner {
-}
-
-.button1{
+.button1 {
   grid-area: h1;
   margin: 1em;
   margin-bottom: 1em;
@@ -115,7 +113,7 @@ nav ul {
   transition: all 200ms linear;
 }
 
-.button1:hover{
+.button1:hover {
   color: white;
 }
 
@@ -138,7 +136,6 @@ a {
 section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  display: grid;
   margin: 1em;
   justify-content: center;
 }
@@ -178,21 +175,19 @@ section {
   transform: scale(1.1);
 }
 
-
 h1 {
   color: #fff;
   width: 100%;
   text-align: center;
 }
 
-
 .button {
   margin: auto;
   margin-top: 5.5%;
   margin-bottom: 5.5%;
-  padding: .5em 1em .5em;
+  padding: .5em 1em;
   color: #fff;
-  background-color: #51594F;
+  background-color: #000;
   font-size: 1.25rem;
   font-style: normal;
   text-decoration: none;
@@ -200,27 +195,28 @@ h1 {
 }
 
 main {
-  background-color: #DFB17D;
+  background-color: #dfd17d;
   padding: 1em;
   width: auto;
 }
 
-h2{
+h2 {
   color: #000;
   width: 100%;
   margin-left: 40%;
   margin-top: 1em;
 }
 
-div{
+div {
   margin: auto;
   margin: 1em;
   justify-content: center;
 }
 
-.content{
+.content {
   display: grid;
   margin: 1.5em;
+
   /*
   grid-template-areas:
   "Illusrator Indesign Photoshop Aftereffects"
@@ -230,8 +226,6 @@ div{
 section#skills.skills {
   list-style: none;
   background-color: #dfb17d;
-
-
 }
 
 ul {
@@ -241,25 +235,23 @@ ul {
   padding: 0;
 }
 
-.icon {
+.icon1 {
   justify-content: center;
   width: 100%;
   margin: 10%;
-  width: 100%;
   align-content: center;
 }
 
-.contactdiv{
+.contactdiv {
   text-align: center;
-  padding:4%;
-
+  padding: 4%;
 }
-
 
 .socials {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
   /*
   display: grid;
   grid-template-areas:
@@ -291,10 +283,11 @@ p {
 
 /* Work.html */
 
-.Work1  {
+.Work1 {
   background-color: #fff;
   margin: auto;
   padding: 2em;
+
   /* text-align: center; */
 }
 
@@ -302,13 +295,15 @@ p {
   background-color: #fff;
   margin: auto;
   padding: 2em;
+
   /* text-align: center; */
 }
 
-.Work3  {
+.Work3 {
   background-color: #fff;
   margin: auto;
   padding: 2em;
+
   /* text-align: center; */
 }
 
@@ -316,6 +311,7 @@ p {
   background-color: #fff;
   margin: auto;
   padding: 2em;
+
   /* text-align: center; */
 }
 
@@ -328,111 +324,110 @@ p {
 .grid {
   display: flex;
   flex-direction: column;
-  background-color: #684E27;
+  background-color: #684e27;
 }
 
 .gridleft {
   text-align: -webkit-center;
   background-color: #f5f2ec;
-
 }
 
-.gridright {
+.aboutimg {
+  margin-top: 11%;
+  width: 60%;
 }
-.aboutimg{
-  margin-top: 11%;width: 60%;
-}
-
-
 
 @media only screen and (min-width: 55em) {
+
   header {
-    flex-direction: row !important;
+    flex-direction: row;
   }
 
   section {
     display: grid;
+
     /*
     grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
     */
-    display: grid;
     margin: 1em;
     justify-content: center;
   }
-  .banner2{
+
+  .banner2 {
     display: grid;
     background-color: #f5f2ec;
     grid-template-columns: 23em 30em;
   }
-  .headingh1{
-    margin: 16% 1% 1% 1%;
+
+  .headingh1 {
+    margin: 16% 1% 1%;
     color: #564757;
   }
 
-  .contactdiv{
-    margin: 31% 1% 1% 1%;
+  .contactdiv {
+    margin: 31% 1% 1%;
     width: 100%;
   }
-  section#skills.skills {
 
+  section#skills.skills {
     display: inline-block;
     width: 97%;
   }
 
-  h2{
+  h2 {
     text-align: center;
     font-size: xx-large;
     margin-left: 1%;
   }
-  .subfooter{
+
+  .subfooter {
     float: right;
     text-align: end;
   }
+
   .socials {
     float: left;
   }
+
 }
 
-
-
 @media only screen and (min-width: 30em) {
+
   body {
     margin: auto;
-    width: 100% !important;
+    width: 100%;
   }
+
   .grid {
     display: list-item;
     list-style-type: none;
   }
+
   section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    display: grid;
     margin: 1em;
+
     /* padding: 0em; */
     padding-right: 5%;
     justify-content: center;
   }
-  .aboutimg{
-    margin-top: 11%;width: 100%;
+
+  .aboutimg {
+    margin-top: 11%;
+    width: 100%;
   }
 
 }
 
-
 @media only screen and (min-width: 37em) {
 
-
-  /*
-  .Portfolio {
-  display: flex;
-
-  } */
   .Work1 {
     background-color: #fff;
     margin: 0;
     padding: 2em;
     font-size: 1.25em;
+
     /* text-align: center; */
   }
 
@@ -441,14 +436,16 @@ p {
     margin: 0;
     padding: 2em;
     font-size: 1.25em;
+
     /* text-align: center; */
   }
 
-  .Work3  {
+  .Work3 {
     background-color: #fff;
     margin: 0;
     padding: 2em;
     font-size: 1.25em;
+
     /* text-align: center; */
   }
 
@@ -457,16 +454,19 @@ p {
     margin: 0;
     padding: 2em;
     font-size: 1.25em;
+
     /* text-align: center; */
   }
+
+}
 
 @media only screen and (min-width: 55em) {
 
   section .Work {
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     margin: 1em;
     justify-content: center;
   }
 
- }
+}
