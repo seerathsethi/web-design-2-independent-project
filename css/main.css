@@ -107,8 +107,8 @@ nav ul {
   max-height: 20%;
   max-width: 40%;
   padding: 1em;
-  color: #DFB17D;
-  background-color: #748273;
+  color: #fff;
+  background-color: #545454;
   font-size: 1.25rem;
   font-style: normal;
   text-decoration: none;
@@ -132,7 +132,7 @@ a {
 }
 
 .nav a:hover {
-  color: #DFB17D;
+  color: #fff;
 }
 
 section {
@@ -192,7 +192,7 @@ h1 {
   margin-bottom: 5.5%;
   padding: .5em 1em .5em;
   color: #fff;
-  background-color: #748273;
+  background-color: #51594F;
   font-size: 1.25rem;
   font-style: normal;
   text-decoration: none;
@@ -206,7 +206,7 @@ main {
 }
 
 h2{
-  color: #fff;
+  color: #000;
   width: 100%;
   margin-left: 40%;
   margin-top: 1em;
@@ -229,7 +229,7 @@ div{
 
 section#skills.skills {
   list-style: none;
-  background-color: #372a2e ;
+  background-color: #dfb17d;
 
 
 }
@@ -460,12 +460,6 @@ p {
     /* text-align: center; */
   }
 
-  /* @media only screen and (min-width: 47.5em) {
-  section .homec{  display: flex !important;
-  flex-direction: column;
-}
-} */
-
 @media only screen and (min-width: 55em) {
 
   section .Work {
@@ -474,4 +468,5 @@ p {
     margin: 1em;
     justify-content: center;
   }
+
  }
