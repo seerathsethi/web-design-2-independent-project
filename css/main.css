@@ -280,6 +280,7 @@ h3 {
 p {
   color: #000;
   padding: 1em;
+  margin: inherit;
 }
 
 /* Work.html */
